@@ -1,0 +1,49 @@
+a:active, 
+a:focus,
+button:active,
+button:focus {
+ outline: 0;
+ border: none;
+}
+
+html, body {
+    height: 100%;
+    background: #061F2F;
+}
+
+.navbar {
+    background: #515271;
+    margin-bottom: 5em;
+}
+
+.font-blue {
+    color: #7699DD;
+}
+
+.font-white {
+    color: white;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.border-white {
+    border:1px solid white;
+}
+
+#main-img {
+    padding: 2em 0;
+}
+
+.padding-none {
+    padding: 0;
+}
