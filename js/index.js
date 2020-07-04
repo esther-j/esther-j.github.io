@@ -1,3 +1,3 @@
-$(window).on('load', function () {
-    $('.container').fadeIn(1200);
+$(window).on("load", function () {
+  $(".container").fadeIn(1200);
 });

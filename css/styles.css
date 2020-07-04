@@ -9,7 +9,7 @@
   }
 
   .about-img {
-      margin-top: 5vh;
+    margin-top: 5vh;
   }
 }
 
@@ -24,7 +24,7 @@
   }
   .about-img {
     margin-top: 0;
-}
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -38,7 +38,7 @@
   }
   .about-img {
     margin-top: 0;
-}
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -160,21 +160,21 @@ body {
 }
 
 .card-body {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .card-text {
-    flex-grow: 2;
-    margin: 0;
+  flex-grow: 2;
+  margin: 0;
 }
 
 .card-icon {
-    margin-left: 0.5em;
+  margin-left: 0.5em;
 }
 
 .card-icon:hover {
-    filter: brightness(0.5);    
-    cursor: pointer;
+  filter: brightness(0.5);
+  cursor: pointer;
 }
