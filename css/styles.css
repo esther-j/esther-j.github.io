@@ -1,3 +1,35 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        padding-left: 8vh !important;
+        padding-right: 8vh !important;
+    }    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        padding-left: 10vh !important;
+        padding-right: 10vh !important;
+    }    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        padding-left: 10vh !important;
+        padding-right: 10vh !important;
+    }  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        padding-left: 10vh !important;
+        padding-right: 10vh !important;
+    }    
+}
+
 a:active, 
 a:focus,
 button:active,
@@ -13,11 +45,10 @@ html, body {
 
 .navbar {
     background: #515271;
-    margin-bottom: 5em;
 }
 
 .font-blue {
-    color: #7699DD;
+    color: #9FC1F5;
 }
 
 .font-white {
@@ -46,4 +77,21 @@ html, body {
 
 .padding-none {
     padding: 0;
+}
+
+.container {
+    padding: 8vh;
+}
+
+.row {
+    margin: auto;
+}
+
+.col-md-6 {
+    padding: auto;
+}
+
+.card {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 }
