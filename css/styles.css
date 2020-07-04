@@ -1,5 +1,5 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   .container {
     padding-left: 8vh !important;
     padding-right: 8vh !important;
@@ -7,9 +7,8 @@
   .card-right {
     margin-left: 0em;
   }
-
   .about-img {
-    margin-top: 5vh;
+    margin-top: 3em;
   }
 }
 
@@ -50,6 +49,9 @@
   .card-right {
     margin-left: 2em;
   }
+  .about-img {
+    margin-top: 0;
+  }
 }
 
 a:active,
@@ -64,6 +66,7 @@ html,
 body {
   height: 100%;
   background: #061f2f;
+  /* padding-top: 4.5rem; */
 }
 
 .navbar {
