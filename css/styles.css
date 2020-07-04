@@ -147,3 +147,23 @@ body {
   font-size: 1em;
   padding: 2em;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-text {
+    flex-grow: 2;
+    margin: 0;
+}
+
+.card-icon {
+    margin-left: 0.5em;
+}
+
+.card-icon:hover {
+    filter: brightness(0.5);    
+    cursor: pointer;
+}
