@@ -1,97 +1,149 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .container {
-        padding-left: 8vh !important;
-        padding-right: 8vh !important;
-    }    
+  .container {
+    padding-left: 8vh !important;
+    padding-right: 8vh !important;
+  }
+  .card-right {
+    margin-left: 0em;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .container {
-        padding-left: 10vh !important;
-        padding-right: 10vh !important;
-    }    
+  .container {
+    padding-left: 10vh !important;
+    padding-right: 10vh !important;
+  }
+  .card-right {
+    margin-left: 2em;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .container {
-        padding-left: 10vh !important;
-        padding-right: 10vh !important;
-    }  
+  .container {
+    padding-left: 10vh !important;
+    padding-right: 10vh !important;
+  }
+  .card-right {
+    margin-left: 2em;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .container {
-        padding-left: 10vh !important;
-        padding-right: 10vh !important;
-    }    
+  .container {
+    padding-left: 10vh !important;
+    padding-right: 10vh !important;
+  }
+  .card-right {
+    margin-left: 2em;
+  }
 }
 
-a:active, 
+a:active,
 a:focus,
 button:active,
 button:focus {
- outline: 0;
- border: none;
+  outline: 0;
+  border: none;
 }
 
-html, body {
-    height: 100%;
-    background: #061F2F;
+html,
+body {
+  height: 100%;
+  background: #061f2f;
 }
 
 .navbar {
-    background: #515271;
+  background: #515271;
 }
 
 .font-blue {
-    color: #9FC1F5;
+  color: #9fc1f5;
 }
 
 .font-white {
-    color: white;
+  color: white;
 }
 
 .full-height {
-    height: 100%;
+  height: 100%;
 }
 
 .font-24 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .font-18 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .border-white {
-    border:1px solid white;
+  border: 1px solid white;
 }
 
 #main-img {
-    padding: 2em 0;
+  padding: 2em 0;
 }
 
 .padding-none {
-    padding: 0;
+  padding: 0;
 }
 
 .container {
-    padding: 8vh;
+  padding: 8vh;
 }
 
 .row {
-    margin: auto;
+  margin: auto;
 }
 
 .col-md-6 {
-    padding: auto;
+  padding: auto;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .card {
-    padding-left: 0.2em;
-    padding-right: 0.2em;
+  background: #343643;
+  margin-bottom: 2em;
+  padding: 0;
+}
+
+.card-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.card-overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.card:hover .card-img {
+  opacity: 0.3;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-overlay-text {
+  color: white;
+  font-size: 1em;
+  padding: 2em;
 }
