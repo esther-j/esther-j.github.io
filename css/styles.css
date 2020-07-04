@@ -94,6 +94,7 @@ body {
 
 .container {
   padding: 8vh;
+  display: none;
 }
 
 .row {
