@@ -118,10 +118,6 @@ body {
   padding: auto;
 }
 
-.center-text {
-  text-align: center;
-}
-
 .card {
   background: #343643;
   margin-bottom: 3em;
@@ -196,4 +192,25 @@ body {
 
 .page-heading {
   margin-bottom: 1em;
+}
+
+.personal-links {
+  display: flex;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.personal-links a {
+  padding-right: 0.4em;
+}
+
+.personal-links a:hover {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
 }
